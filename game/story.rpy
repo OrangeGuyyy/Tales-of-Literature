@@ -2,19 +2,19 @@ label story:
     show bg corridor
     play music t5
     player "Another regular day at school."
-    player "As I was walking down the hallway, I saw someone in the Distance"
+    player "As I was walking down the hallway, I saw someone in the Distance."
     show monika 1a at t11
-    m "Ah [player] I have something to ask you."
+    m "Ah [player], I have something to ask you."
     "This is Monika, she is my Neighbor."
-    player "Sorry Monika, I have to do something important fist."
+    player "Sorry Monika, I have to do something important first."
     show monika 2c at t11
     m "What do you have to do [player]?"
     player "Sayori asked me for help."
     show monika 3b at t11
     m "Sayori? I saw her in your Classroom."
-    player "Ok, thank you Monika, ask me later."
+    player "Ok, thanks Monika, you can ask me later."
     m "I'll wait for you in the Libary."
-    player "Got that, see you soon"
+    player "Got that, see you soon."
     hide monika
 
     stop music fadeout 1.5
@@ -22,20 +22,20 @@ label story:
     with wipeleft_scene
     play music t2 fadeout 1
     show sayori 1h at t11
-    s "Hello [player]."
-    "This is Sayori, my ex-childhood Friend and nowdays my Step-Sister."
-    "My Family adopted her after her Parents died, 9 years ago."
-    player "Sayori, whats up? You seem down."
+    s "Hey [player]."
+    "This is Sayori, my childhood bestfriend and now my Step-Sister."
+    "My Family adopted her after her Parents died 9 years ago."
+    player "Sayori, what's up? You seem down."
     show sayori 1k at t11
-    s "No [player], nothing is wrong. I just had a bad day."
+    s "Nothing's wrong [player], I just had a bad day."
     player "Are you hungry?"
     show sayori 5b at t11
     s "No{w=0.2}.{w=0.2}.{w=0.2}."
-    player "Then im going to eat something alone."
+    player "Then I'm going to eat something alone."
     show sayori 4p at t11
-    s "Wait,{w=0.7} maybe i am a bit Hungry"
+    s "Wait,{w=0.7} maybe I am a bit hungry."
     show sayori 5a at s11
-    s "But, I don't have any Money on me."
+    s "But, I don't have any money on me."
     player "Don't worry Sayori, food is on me today."
     show sayori 4r at h11
     s "Yay!"
@@ -48,37 +48,37 @@ label story:
     show sayori 1a at t11
     "As we were walking down the Corridor, we heard a scream."
     show sayori 4m at h11
-    n "WHAT THE FUCK!!!"
+    w "WHAT THE FUCK!!!"
     s "What was that?"
-    player "I don't know, but i think she need help"
-    "We rushed where we thought the Scream came from."
+    player "I don't know, but I think they need help"
+    "We rushed to where we thought the scream came from."
     hide sayori
     
     stop music fadeout 1.5
     show bg club_day
     with wipeleft_scene
     play music t6 fadeout 1
-    "We opened the Door and saw a little Girl with Pink Hair, staring at Manga on the Floor."
+    "We burst trough the door and saw a little Girl with Pink Hair, staring at some Manga on the Floor."
     show natsuki 5f at t22
     show sayori 2m at l21
-    n "WHO THREW ALL MY MANGA ON THE FLOOR!"
+    w "WHO THREW ALL MY MANGA ON THE FLOOR!"
     s "What Happened?"
     show natsuki 5g at t22
     show sayori 3c at t21
-    n "Who are you two?"
-    s "Im Sayori and thats [player]"
-    player "Hello"
+    w "Who are you two?"
+    s "I'm Sayori and thats [player]"
+    player "Hello there."
     player "And you are?"
     show natsuki 1c at t22
     show sayori 1a at t21
-    n "Im Natsuki, second year."
-    "I totally thought she is first year."
+    n "Im Natsuki a second year Student."
+    "Could have sworn she is a first year."
     player "Nice to meet you Natsuki."
-    player "What happened again?"
+    player "So what happened again?"
     show natsuki 4e at t22
     n "Someone, threw all my Manga on the Floor!"
     show sayori 1b at t21
-    s "I don't see it as a big problem, it's just books"
+    s "I don't see how that's a big problem, it's just books."
     show natsuki 5f at t22
     show sayori 1u at h21
     n "NO! THESE AREN'T JUST BOOKS!"
@@ -90,27 +90,27 @@ label story:
     show natsuki 1v at t22
     n "NO!"
     show natsuki 5g at t22
-    n "Ok look, Im sorry for yelling at you Sayori but these Books are meaning a lot to me."
+    n "Ok look, I'm sorry for yelling at you Sayori but these ''Books'' mean a lot to me."
     show sayori 1w at t21
-    s "Im really sorry Natsuki, I din't know that these Manga are meaning so much to you, do you want to talk about why?"
+    s "I'm really sorry Natsuki, I didn't know that these Mangas mean so much to you, do you want to talk about why?"
     show natsuki 3g at t22
-    n "No, im not in the mood."
-    n "Can you two leave already, I want some time alone."
+    n "No, I'm not in the mood."
+    n "Can you two leave already, I want to be alone."
     show sayori 2k at t21
     player "Alright"
-    player "But before we go would you mind, us helping you?"
-    player "See it as a apologie"
+    player "But before we go, would you mind, if we helped you?"
+    player "See it as a apologie."
     show natsuki 5e at t22
-    n "No, I don't need help of you two, I'll do it myself."
+    n "No, I don't need your help , I'll do it myself."
     show sayori 1f at t21
     player "Are you sure Natsuki?"
     show natsuki 4e at t22
-    n "Yes, I am Sure"
+    n "Yes, I'm Sure. Now go away!"
     player "Ok then, have great day!"
     player "That made me hungry Sayori. Let's go eat something now."
     show natsuki 1c at t22
-    "Natsuki's Eyes light up as I said that"
-    "But she doesn't say anything"
+    "Natsuki's Eyes light up as I said that."
+    "But she remains silent."
     hide sayori
     hide natsuki
 
@@ -121,18 +121,18 @@ label story:
     show sayori 1f at t11
     player "Come on Sayori don't be sad just because someone yelled at you. It wasn't on purpose either."
     show sayori 1h at t11
-    s "I know [player], but it just can't get it out of my Head."
+    s "I know [player], but I can't get it out of my head."
     player "I know exactly what would brighten up your mood!"
     show sayori 3m at t11
-    s "Oh Oh, What is it?, What is it?"
-    player "I won't tell you, it's a surprise"
+    s "Oh Oh, what is it?, what is it? Tell me now!!!"
+    player "Nope it's a surprise"
     show sayori 5c at t11
     s "Come on [player], please?"
     s "Pretty Please?"
     player "No, that would ruin the surprise."
     show sayori 1p at t11
     s "Your'e a Meanie [player]."
-    "I ignore that. Let's get going now."
+    "I ignored her antics and we went whereever."
     hide sayori
     
     stop music fadeout 1.5
@@ -145,17 +145,17 @@ label story:
     show monika 3h at t22
     show sayori 1a at t21
     m "Where were you [player], I waited for you!"
-    player "OMG Monika, I am so sorry. We had an accident on the way, that's when I must've forgotten about you."
+    player "Oh god Monika, I'm so sorry. We had an accident on the way, that's when I must've forgotten about you."
     show monika 1r at t22
-    m "It's alright [player], i gotta question for you."
-    player "Please you can ask me inside my House, I just wanted to cook something for Sayori."
-    player "You know, her cooking skills are bad. Like last time..."
+    m "It's alright [player] but I need to ask you something."
+    player "Please you can ask me when we're inside, I wanted to cook something for Sayori."
+    player "You know she can't cook herself, remember last time?"
     show monika 1c at t22
     show sayori 4p at t21
     s  "You know that it was an accident!"
     player "4 Times?"
     show sayori 1l at t21
-    s "Eheh~"
+    s "Eheheh~"
     hide sayori
     hide monika
 
@@ -163,35 +163,36 @@ label story:
     show bg kitchen
     with wipeleft_scene
     play music t5 fadeout 1
-    "We entered mine and Sayori's House and made our way to the kitchen."
+    "We entered the house and made our way to the kitchen."
     show sayori 1a at t21
     show monika 1a at t22
     player "Sayori, why don't you relax a little and pick out a movie?"
-    player "In the meantime, I will cook something for you, then Monika can ask her question."
+    player "In the meantime, I will cook something for you and Monika can ask her question."
     show sayori 3q at t21
     s "Ok [player]."
     hide sayori with dissolve
     show monika 4j at t11
     m "Now [player]"
-    extend 4a "I want to ask you, if you want to start a Club in school?"
+    show monika 4a at t11
+    m " I want to ask you, if you would like to start a Club?"
     player "A Club huh?"
     show monika 2k at t11
     m "Yeah [player], I would love to start a club with you."
     player "Yeah, I would be interested."
-    player "Do you have any Idea about what kind of club?"
+    player "Do you have any Idea what kind of club?"
     show monika 2l at t11
-    m "Not really."
+    m "Not yet."
     show monika 1k at t11
-    m "But im sure we could figure something out."
-    player "Ok Monika, I have to cook something for Sayori now."
+    m "I'm sure we could figure something out."
+    player "Ok Monika, I have to cook for Sayori now."
     show monika 5a at t11
-    m "Oh, what are you making?"
-    player "Im making Pancakes for her."
+    m "Ouhhhh, what are you making?"
+    player "Im making Pancakes."
     show monika 1a at t11
-    player "Do you want to help?"
+    player "You want to help?"
     m "Sure"
     "[player] and Monika are beginning to cook."
-    "In the Meantime Sayori tried to pick a Movie."
+    "In the Meantime Sayori tried picking a Movie."
     hide monika
 
     stop music fadeout 1.5
@@ -199,7 +200,7 @@ label story:
     with wipeleft_scene
     play music t6 fadeout 1
 
-    s "Should I change, the Uniform is quite uncomfortable."
+    s "I should change, the Uniform is quite uncomfortable."
     menu:
         "Change into Casual Clothes.":
             $ change_casual = "1"
@@ -210,10 +211,10 @@ label story:
             jump movie_pick
         "Stay in Uniform.":
             $ change_casual = "2"
-            "Im to lazy to change now."
+            s "Ehh nahh I'm to lazy to change right now."
             jump movie_pick
 label movie_pick:
-    s "Uhh"
+    s "Uhh."
     s "Which Movie should I pick, theyre all so good!"
     menu:
         "Action Movie":
@@ -228,15 +229,15 @@ label movie_pick:
 label movie_action:
     s "Do you guys want to watch a action movie?"
     player "Yeah, sounds good."
-    s "Ok."
+    s "Ok. Cool. Imma pick the one with the cool glowing swords."                 
     jump evening_first_day
 label movie_romance:
     s "Do you guys want to watch a romantic movie?"
-    player "Are you sure Sayori?"
+    player "You sure Sayori?"
     player "I don't think that's a good Idea."
     s "Hmm"
     s "Ok [player]."
-    s "Then I'd pick the action movie."
+    s "Then I'll a pick action movie."
     player "Sounds good."
     jump evening_first_day
 
@@ -247,8 +248,8 @@ label evening_first_day:
     play music t5 fadeout 1
 
     show monika 3b at t11
-    m "Hey [player], I think the Pancakes are done."
-    player "Wow Monika, these smells delicious!"
+    m "Hey [player], the Pancakes are done."
+    player "Wow Monika, these smell delicious!"
     show monika 5a at t11
     m "Thank you."
     player "I'll get the plates."
@@ -260,18 +261,18 @@ label evening_first_day:
     play music t2 fadeout 1
 
     show monika 1a at t11
-    player "Ok Monika let's sit down."
+    player "Take a seat Monika."
     show monika 1a at t11
     "Monika sits down on the couch."
     if change_casual == "1":
         show monika 3d at t11
         m "Where is Sayori?"
-        player "I don't know Monika."
+        player "I don't know."
         show monika 1k at t21
         show sayori 4bx at t22
         s "BOO"
         show sayori 1bo at t22
-        s "Why aren't you scared?"
+        s "Why aren't you scared?!"
         show sayori 1bm at t22
         player "It takes more than that Sayori."
         show monika 5a at t21
@@ -286,7 +287,7 @@ label evening_first_day:
         show sayori 4br at t22
         show monika 1k at t21
         s "Pancakes!!!"
-        player "Yes Sayori, we made you Pancakes."
+        player "Yes Sayori, we made Pancakes."
         show sayori 4bq at t22
         jump watching_movie_first_evening
     if change_casual == "2":
@@ -312,7 +313,7 @@ label evening_first_day:
         show sayori 4r at t22
         show monika 1k at t21
         s "Pancakes!!!"
-        player "Yes Sayori, we made you Pancakes."
+        player "Yes Sayori, we made Pancakes."
         show sayori 4q at t22
         jump watching_movie_first_evening
 
@@ -321,12 +322,12 @@ label watching_movie_first_evening:
     if change_casual == "1":
         show sayori 1ba at t22
         player "Ok let's watch the movie now."
-        s "Yay."
+        s "YAY!"
         jump after_movie_first_evening
     if change_casual == "2":
         show sayori 1a at t22
         player "Ok let's watch the movie now."
-        s "Yay."
+        s "YAY!"
         jump after_movie_first_evening
 
 label after_movie_first_evening:
@@ -335,7 +336,7 @@ label after_movie_first_evening:
     show bg lvra
     with wipeleft_scene
     play music t4 fadeout 1
-    "It was getting pretty late after the Movie."
+    "It was getting pretty late."
     if change_casual == "1":
         show sayori 4br at t22
         show monika 4l at t21
@@ -343,24 +344,24 @@ label after_movie_first_evening:
         player "Yeah, it was really good."
         m "I can't say anything, it's a first for me."
         show sayori 2bm at t22
-        s "What?!"
-        s "How did you survive without them?"
+        s "Wait what?!?!"
+        s "How did you survive so long without them?"
         show monika 2n at t21
         m "They're just movies Sayori."
         m "Don't you think you're overreacting a little?"
         show sayori 4bp at t22
-        s "NOO{w=0.2} I am not, they're a kind of artwork for me. "
+        s "NOO{w=0.2} I'm not, they're a kind of artwork to me. "
         show sayori 4bo at t22
         show monika 2n at t21
         m "Ok Ok Sayori, I'll watch some more of them later."
         show monika 2a at t21
-        m "It's getting pretty late, i think i'll go home soon."
+        m "It's getting pretty late, i think I'll go home soon."
         show sayori 3bg at s22
-        s "Ehh{w=0.2} already leaving?"
+        s "Ehhhh{w=0.2} already leaving?"
         show monika 1e at t21
         m "Yeah Sayori, we have school tomorrow."
         show sayori 1bm at t22
-        s "Oh shoot, I forgot."
+        s "Oh shoot right, I forgot."
         player "Ok Monika, see you tomorrow."
         show monika 5a at t21
         m "See ya"
@@ -368,7 +369,7 @@ label after_movie_first_evening:
         show sayori 3bc at t11
         s "[player], I think im going to bed now."
         player "Yes Sayori, that's probably for the best."
-        player "I just need to change reel quick. I'll see you upstairs."
+        player "I just need to change real quick. I'll see you upstairs."
         show sayori 1bd at t11
         s "Okay"
         hide sayori
@@ -386,18 +387,18 @@ label after_movie_first_evening:
         m "They're just movies Sayori."
         m "Don't you think you're overreacting a little?"
         show sayori 4p at t22
-        s "NOO{w=0.2} I am not, they're a kind of artwork for me."
+        s "NOO{w=0.2} I am not, they're a kind of artwork to me."
         show sayori 4o at t22
         show monika 2n at t21
         m "Ok Ok Sayori I'll watch some more of them later."
         show monika 2a at t21
         m "It's getting pretty late, i think i'll go home soon."
         show sayori 3g at s22
-        s "Ehh{w=0.2} already leaving?"
+        s "Ehhhhh{w=0.2} already leaving?"
         show monika 1e at t21
         m "Yeah Sayori, we have school tomorrow."
         show sayori 1m at t22
-        s "Oh shoot I forgot."
+        s "Oh shoot right, I forgot."
         player "Ok Monika, see you tomorrow."
         show monika 5a at t21
         m "See ya."
@@ -405,7 +406,7 @@ label after_movie_first_evening:
         show sayori 3c at t11
         s "[player], I think im going to bed now."
         player "Yes Sayori, that's probably for the best."
-        player "I just need to change reel quick. I'll see you upstairs."
+        player "I just need to change real quick. I'll see you upstairs."
         show sayori 1d at t11
         s "Okay."
         hide sayori
@@ -416,7 +417,7 @@ label bed_time:
     show bg hallway_house
     with wipeleft_scene
     play music t5 fadeout 1
-    "After getting ready, I was on my way to Sayori."
+    "After changing, I made my way to Sayori."
 
     show bg bedroom2
     with wipeleft_scene
@@ -436,10 +437,10 @@ label bed_time:
     show monika 1a at t11
     m "This is the End of this Alpha Version."
     show monika 2b at t11
-    m "So this is the goodbye for now."
+    m "So this is a goodbye for now."
     show monika 1e at t11
     m "See you around next time."
-    "Wait before we roll the credits, I want to thank Milo, Beb and Dreamscached for supporting and helping me."
+    "Wait before we roll the credits, I want to thank Milo, Beb, Dreamscached and OrangeGuy for supporting and helping me."
     show monika 4b at t11
     m "Now, roll the credits."
     jump credits
